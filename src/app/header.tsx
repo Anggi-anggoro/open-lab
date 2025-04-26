@@ -26,8 +26,8 @@ const Navbar = () => {
       href: "/experiment",
       dropdown: [
         { name: "Engineering Lab", href: "/experiment/engineering" },
-        { name: "Science Lab", href: "/experiment/playful" },
-        { name: "Playful Lab", href: "/experiment/science" },
+        { name: "Science Lab", href: "/experiment/science" },
+        { name: "Playful Lab", href: "/experiment/playful" },
       ],
     },
     {
@@ -46,9 +46,11 @@ const Navbar = () => {
   ];
 
   return (
-    <header className="navbar-container">
+    <header className="absolute top-0 left-0 right-0 ">
     <div className="flex items-center justify-between px-4 py-4 md:px-12 md:pt-7 text-primary font-open-sans font-bold text-xl">
-      <Image src={Logo} alt="Logo" width={180} height={80} className="md:w-64 md:h-auto" />
+      <Link href="/" className="">
+        <Image src={Logo} alt="Logo" width={180} height={80} className="md:w-64 md:h-auto" />
+      </Link>
       
       {/* Desktop Navigation - hidden on mobile */}
       <nav className="hidden md:flex gap-x-24">
@@ -60,12 +62,12 @@ const Navbar = () => {
             onMouseLeave={() => setActiveMenu(null)}
           >
             <div className="pb-3">
-              <Link 
-                href={item.href}
+              <button 
+                
                 className={`hover:text-gray-400 ${activeMenu === index ? 'text-gray-400' : ''}`}
               >
                 {item.name}
-              </Link>
+              </button>
             </div>
 
             {item.dropdown && (
