@@ -4,7 +4,7 @@ import Image from 'next/image';
 const SciencePage = () => {
     return (
         <div className="flex flex-col md:flex-row items-center text-primary justify-between gap-8 text-2xl px-12 md:py-16 font-open-sans max-md:pt-24 mb-12">
-            <div className="w-4/5 px-8">
+            <div className="md:w-4/5 px-2 md:px-8">
             <div className='flex max-md:text-center md:pl-[30%] flex-col items-center md:px-8 font-bold pb-10'>
                     <h1 className='text-3xl md:text-4xl'>Science Lab</h1>
                     <p className='font-normal'>Learn It, Do It, Apply It</p>

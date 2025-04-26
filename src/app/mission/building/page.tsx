@@ -8,7 +8,7 @@ const BuildingPage = () => {
                 <h2 className="text-2xl md:text-4xl font-bold text-[#0A3D5C]">What We're Building</h2>
                 <Image src={Logo2} alt="Rocket and rock icon" className="w-96 mt-6" />
             </div>
-            <div className="w-3/5">
+            <div className="max-md:px-10 md:w-3/5">
                 <ul className="list-disc list-inside text-[#0A3D5C] space-y-6">
                     <li>
                         <strong>A Playground for curious minds</strong><br />

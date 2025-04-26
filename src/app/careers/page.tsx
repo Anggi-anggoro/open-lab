@@ -5,7 +5,7 @@ import Image from 'next/image';
 const CareersPage = () => {
     return (
         <div className="flex flex-col md:flex-row items-center text-primary justify-between gap-8 text-2xl px-12 py-16 font-open-sans max-md:pt-24 mb-12">
-            <div className="w-full px-8">
+            <div className="w-full px-2 md:px-8">
                 <div className='flex max-md:text-center flex-col items-center md:px-8 font-bold pb-10'>
                     <h1 className='text-3xl md:text-4xl max-md:pb-2'>Careers at Open Lab</h1>
                     <p className='font-normal'>Build the Future with Us</p>

@@ -7,7 +7,7 @@ const BuildingPage = () => {
             <div className="w-2/5 flex flex-col items-center text-center self-end pb-14">                
                 <Image src={Logo2} alt="Rocket and rock icon" className="w-96 mt-6" />
             </div>
-            <div className="w-3/5">
+            <div className="md:w-3/5">
             <div className='flex max-md:text-center md:pl-[30%] flex-col items-center md:px-8 font-bold pb-10'>
                 <div>
                     <h1 className='text-3xl md:text-4xl'>Playful Lab</h1>

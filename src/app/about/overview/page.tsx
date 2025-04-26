@@ -3,11 +3,11 @@ import Logo2 from '@/app/assets/logo2.png';
 import Image from 'next/image';
 const InfoPage = () => {
     return (
-        <div className="flex flex-col md:flex-row items-center justify-between gap-8 max-xl:text-xl text-2xl px-12 h-screen text-primary pt-12">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-8 max-xl:text-xl text-2xl px-12 text-primary max-md:pb-10 pt-12">
             <div className="w-2/5 flex flex-col items-center text-center self-center">                
                 <Image src={Logo2} alt="Rocket and rock icon" className="w-96" />
             </div>
-            <div className="w-4/5 md:pt-52 lg:pt-0">
+            <div className="md:w-4/5 md:pt-52 lg:pt-0">
                <div className='flex flex-col items-start font-bold pb-10'>                
                     <h1 className=''>Open Lab is a digital platform that bridges techies — the creators, engineers, and lab lovers — with miners — curious young learners eager to explore real science.</h1>            
                 </div>

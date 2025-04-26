@@ -4,7 +4,7 @@ import Image from 'next/image';
 const MissionPage = () => {
     return (
         <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-8 md:text-2xl md:px-12 md:py-16 max-md:pt-24 mb-12">
-            <div className="w-3/5">
+            <div className="max-md:px-10 md:w-3/5">
                 <ul className="list-disc list-inside text-[#0A3D5C] space-y-6">
                     <li>
                         <strong>Too much talk, not enough action!</strong><br />
