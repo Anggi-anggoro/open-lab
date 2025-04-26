@@ -4,6 +4,7 @@ import "./globals.css";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "./header";
+import WonderFooter from "./footer";
 
 
 
@@ -20,6 +21,7 @@ export default function RootLayout({
       >
         <Header/>
         {children}
+        <WonderFooter/>
       </body>
     </html>
   );
