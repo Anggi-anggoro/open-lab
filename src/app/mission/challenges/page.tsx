@@ -1,21 +1,22 @@
 import React from 'react';
 import Logo2 from '@/app/assets/logo2.png';
 import Image from 'next/image';
+import Disc from '@/app/assets/disc4.png';
 const MissionPage = () => {
     return (
         <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-8 md:text-2xl md:px-12 md:py-16 max-md:pt-24 mb-12">
             <div className="max-md:px-10 md:w-3/5">
-                <ul className="list-disc list-inside text-[#0A3D5C] space-y-6">
+                <ul className="text-[#0A3D5C] space-y-6">
                     <li>
-                        <strong>Too much talk, not enough action!</strong><br />
+                        <Image className='inline' alt="" src={Disc} height={30} width={30} /> <strong>Too much talk, not enough action!</strong><br />
                         Science in school is still way too theoretical — pages, formulas, and long lectures.
                     </li>
                     <li>
-                        <strong>Kids are getting curious, but...</strong><br />
+                        <Image className='inline' alt="" src={Disc} height={30} width={30} /> <strong>Kids are getting curious, but...</strong><br />
                         When they do explore, it's mostly apps and coding. Cool, but where’s the hands-on fun?
                     </li>
                     <li>
-                        <strong>Where’s the messy, sparkly, exploding stuff?</strong><br />
+                        <Image className='inline' alt="" src={Disc} height={30} width={30} /> <strong>Where’s the messy, sparkly, exploding stuff?</strong><br />
                         Access to real, practical science — the kind with test tubes, magnets, slime, and satellites — is still hard to find.
                     </li>
                 </ul>

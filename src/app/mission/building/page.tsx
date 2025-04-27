@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo2 from '@/app/assets/logo2.png';
 import Image from 'next/image';
+import Disc from '@/app/assets/disc4.png';
 const BuildingPage = () => {
     return (
         <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:text-2xl md:px-12 md:py-16 max-md:pt-24 mb-12">
@@ -9,17 +10,17 @@ const BuildingPage = () => {
                 <Image src={Logo2} alt="Rocket and rock icon" className="w-96 mt-6" />
             </div>
             <div className="max-md:px-10 md:w-3/5">
-                <ul className="list-disc list-inside text-[#0A3D5C] space-y-6">
+                <ul className="text-[#0A3D5C] space-y-6">
                     <li>
-                        <strong>A Playground for curious minds</strong><br />
+                        <Image className='inline' alt="" src={Disc} height={30} width={30} /> <strong>A Playground for curious minds</strong><br />
                         A shared space where techies (the lab geeks and project tinkerers) meet miners (the young explorers digging into science with wide eyes).
                     </li>
                     <li>
-                        <strong>Interest-based discovery</strong><br />
+                        <Image className='inline' alt="" src={Disc} height={30} width={30} /> <strong>Interest-based discovery</strong><br />
                         We serve just the right kind of science — from space gadgets to crystal experiments — based on what each kid loves.
                     </li>
                     <li>
-                        <strong>Because science should feel like magic</strong><br />
+                        <Image className='inline' alt="" src={Disc} height={30} width={30} /> <strong>Because science should feel like magic</strong><br />
                         Not just facts in textbooks. We make science fun, hands-on, and full of “whoa!” moments.
                     </li>
                 </ul>
