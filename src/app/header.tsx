@@ -39,13 +39,17 @@ const Navbar = () => {
       ],
     },
     {
+      name: "Story",
+      href: "/story",
+    },
+    {
       name: "Careers",
       href: "/careers",
     },
   ];
 
   return (
-    <header className=" border-b-2 border-primary z-50">
+    <header className=" border-b-2 border-primary z-50 shadow-md">
     <div className="flex items-center justify-between px-4 py-4 md:px-12 md:pt-7 text-primary font-open-sans font-bold text-xl">
       <Link href="/" className="">
         <Image src={Logo} alt="Logo" width={180} height={80} className="md:w-64 md:h-auto" />
@@ -61,7 +65,7 @@ const Navbar = () => {
             onMouseLeave={() => setActiveMenu(null)}
           >
             <div className="pb-3">
-                {item.name === "Careers" ? (
+                {item.name === "Careers" || item.name === "Story" ? (
                   <Link href={item.href} className="hover:text-gray-400">
                     {item.name}
                   </Link>
