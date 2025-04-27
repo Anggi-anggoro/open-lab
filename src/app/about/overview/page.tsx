@@ -13,7 +13,7 @@ const InfoPage = () => {
                 </div>
                 <p className='font-bold'>It’s more than just content. It’s a living lab environment where:
                 </p>
-                <ul className="list-disc list-inside text-[#0A3D5C] space-y-6">
+                <ul className="text-[#0A3D5C] space-y-6">
                     <li>
                         <strong>🧪 A Science gets personal — </strong> 
                         Choose your own adventure! Projects are categorized by difficulty, making it easy for each learner to match their age, interest, and experience level.  
